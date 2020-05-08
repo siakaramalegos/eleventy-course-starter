@@ -1,0 +1,21 @@
+{
+  "name": "eleventy-course-starter",
+  "version": "1.0.0",
+  "description": "A starter repository for an online course web site using the Eleventy static site generator.",
+  "scripts": {
+    "build": "npx eleventy --input=src",
+    "start": "npx eleventy --input=src --serve",
+    "watch": "npx eleventy --input=src --watch",
+    "debug": "DEBUG=* npx eleventy --input=src"
+  },
+  "keywords": [],
+  "author": {
+    "name": "Sia Karamalegos",
+    "email": "siakaramalegos@gmail.com",
+    "url": "https://sia.codes/"
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "@11ty/eleventy": "^0.10.0"
+  }
+}
