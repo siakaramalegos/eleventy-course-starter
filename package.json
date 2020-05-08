@@ -8,6 +8,13 @@
     "watch": "npx eleventy --input=src --watch",
     "debug": "DEBUG=* npx eleventy --input=src"
   },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/siakaramalegos/eleventy-course-starter.git"
+  },
+  "bugs": {
+    "url": "https://github.com/siakaramalegos/eleventy-course-starter/issues"
+  },
   "keywords": [],
   "author": {
     "name": "Sia Karamalegos",
